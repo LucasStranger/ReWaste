@@ -481,31 +481,31 @@ main .container{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f8f9fa; /* Cor de fundo */
-    border-radius: 25px; /* Bordas arredondadas */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    background-color: #f8f9fa;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 10px;
-    max-width: 600px; /* Largura máxima */
-    margin: 20px auto; /* Centraliza na tela */
+    max-width: 600px;
+    margin: 20px auto;
 }
 
 .search-input {
     border: none;
     outline: none;
     padding: 10px;
-    flex: 1; /* Para preencher o espaço restante */
-    border-radius: 25px; /* Bordas arredondadas */
-    font-size: 16px; /* Tamanho da fonte */
+    flex: 1;
+    border-radius: 25px;
+    font-size: 16px;
 }
 
 .search-button {
-    background: transparent; /* Fundo transparente */
+    background: transparent;
     border: none;
     cursor: pointer;
-    padding: 5px 10px; /* Espaçamento interno */
+    padding: 5px 10px;
 }
 
 .search-button img {
-    width: 20px; /* Tamanho do ícone */
+    width: 20px;
     height: 20px;
 }
