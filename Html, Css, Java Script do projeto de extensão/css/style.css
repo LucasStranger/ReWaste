@@ -230,7 +230,14 @@ main .container{
     color: white;
     background-color: var(--color1);
     border: none;
-    
+}
+/*Newsletter*/
+.newsletter{
+    background-color: var(--color2);
+}
+.newsletter .box-newsletter{
+    text-align: center;
+    background-image: url(../css/);
 }
 /*responsivo*/
 @media (max-width: 960px){
@@ -304,6 +311,13 @@ main .container{
         width: 100%;
         text-align: center;
         padding: 0;
+    }
+    .melhores-receitas .cards{
+        flex-direction: column;
+    }
+    .melhores-receitas .cards .card-item{
+        width: 100%;
+        margin-top: 50px;
     }
 }
 @media (max-width: 440px){
