@@ -237,7 +237,37 @@ main .container{
 }
 .newsletter .box-newsletter{
     text-align: center;
-    background-image: url(../img/background-newsletter.png);
+    padding: 100px;
+    background-image: url(../img/background-newsletter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.newsletter .box-newsletter h2{
+    font-size: 2.5rem;
+}
+.newsletter .box-newsletter p{
+    margin: 13px 0;
+}
+.newsletter .box-newsletter input{
+    width: 35%;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: var(--color1);
+}
+.newsletter .box-newsletter button{
+    font-size: 15px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 14px;
+    color: var(--color1);
+    background-color: var(--color3);
+    cursor: pointer;
 }
 /*responsivo*/
 @media (max-width: 960px){
