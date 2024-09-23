@@ -232,7 +232,7 @@ main .container{
     border: none;
 }
 /*Newsletter*/
-.newsletter .container{
+.newsletter{
     background-color: var(--color2);
 }
 .newsletter .box-newsletter{
