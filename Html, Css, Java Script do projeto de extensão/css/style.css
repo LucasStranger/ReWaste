@@ -232,10 +232,10 @@ main .container{
     border: none;
 }
 /*Newsletter*/
-.newsletter{
+.newsLetter{
     background-color: var(--color2);
 }
-.newsletter .box-newsletter{
+.newsLetter .box-newsLetter{
     text-align: center;
     padding: 100px;
     background-image: url(../img/background-newsletter.jpg);
@@ -244,13 +244,13 @@ main .container{
     background-position: center;
     border-radius: 15px;
 }
-.newsletter .box-newsletter h2{
+.newsLetter .box-newsLetter h2{
     font-size: 2.5rem;
 }
-.newsletter .box-newsletter p{
+.newsLetter .box-newsLetter p{
     margin: 13px 0;
 }
-.newsletter .box-newsletter input{
+.newsLetter .box-newsLetter input{
     width: 35%;
     padding: 15px;
     border-radius: 15px;
@@ -259,7 +259,7 @@ main .container{
     color: black;
     background-color: var(--color1);
 }
-.newsletter .box-newsletter button{
+.newsLetter .box-newsLetter button{
     font-size: 15px;
     border: none;
     outline: none;
