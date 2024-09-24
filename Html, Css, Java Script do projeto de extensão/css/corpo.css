@@ -80,7 +80,7 @@
   
   .card-footer a {
     color: #fff;
-    display: block;
+    display: flex;
     padding: 16px;
     text-decoration: none;
     font-family: sans-serif;
