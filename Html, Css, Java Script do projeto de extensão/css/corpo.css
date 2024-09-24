@@ -17,8 +17,8 @@
   .container {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
   }
   
   /* Card */
@@ -119,7 +119,7 @@
   
 
   /*Receitas-page*/
-.search-container {
+  .search-container {
     display: flex;
     align-items: center;
     justify-content: center;
