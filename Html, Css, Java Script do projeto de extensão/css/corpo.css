@@ -49,7 +49,7 @@
     width: 300px;
     height: 460px;
     margin: 25px;
-    background-color: linear-gradient(to right, var(--color4, --color5, --color1));
+    background-color: linear-gradient(to right, #FDE3A6, #F3DFE0, #F2ACC6, #92C8E0,);
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
