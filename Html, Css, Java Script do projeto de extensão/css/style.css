@@ -108,7 +108,6 @@ main .container{
 /*Resultados*/
 .Resultados{
     background:#BF8450;
-    background-position: top;
 }
 .Resultados .container{
     display: flex;
