@@ -122,14 +122,14 @@
   /*Receitas-page*/
   .search-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
     background-color: #f8f9fa;
     border-radius: 25px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 10px;
     max-width: 600px;
-    margin-bottom: 20px auto;
+    margin: 20px auto;
 }
 
 .search-input {
