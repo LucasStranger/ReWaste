@@ -107,15 +107,16 @@ main .container{
 }
 /*Resultados*/
 .Resultados{
-    background:#BF8450; 
+    background:#FDE3A6;
+    background-position: start;
 }
 .Resultados .container{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: start;
+    justify-content: start;
 }
 .Resultados .resultados-text{
-    color: #D9C1D2;
+    color: #F2ACC6;
     font-size: 1.6rem;
     font-weight: 600;
     width: 50%;
@@ -124,7 +125,7 @@ main .container{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #D9C1D2;
+    color: #F2ACC6;
 }
 .Resultados .resultados-numero p{
     text-align: center;
@@ -474,38 +475,4 @@ main .container{
 #termos-page .last-updated {
     font-style: italic;
     color: #888;
-}
-
-/*Receitas-page*/
-.search-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f8f9fa;
-    border-radius: 25px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    max-width: 600px;
-    margin: 20px auto;
-}
-
-.search-input {
-    border: none;
-    outline: none;
-    padding: 10px;
-    flex: 1;
-    border-radius: 25px;
-    font-size: 16px;
-}
-
-.search-button {
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 5px 10px;
-}
-
-.search-button img {
-    width: 20px;
-    height: 20px;
 }
