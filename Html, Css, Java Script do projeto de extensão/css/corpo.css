@@ -80,7 +80,7 @@
   
   .card-footer a {
     color: #fff;
-    display: flex;
+    display: block;
     padding: 16px;
     text-decoration: none;
     font-family: sans-serif;
@@ -122,8 +122,8 @@
   /*Receitas-page*/
   .search-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: top;
+    justify-content: top;
     background-color: #f8f9fa;
     border-radius: 25px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
