@@ -111,8 +111,8 @@ main .container{
 }
 .Resultados .container{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: top;
+    justify-content: space-between;
 }
 .Resultados .resultados-text{
     color: #D9C1D2;
