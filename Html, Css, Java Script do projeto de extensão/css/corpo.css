@@ -1,6 +1,9 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
   }
   
   body {
@@ -14,7 +17,7 @@
   .receitas.html .container {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
   }
   
@@ -76,7 +79,7 @@
   
   .cardh-footer a {
     color: #fff;
-    display: block;
+    display: center;
     padding: 16px;
     text-decoration: none;
     font-family: sans-serif;
@@ -117,8 +120,8 @@
   /*Receitas-page*/
 .search-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: top;
+    justify-content: top;
     background-color: #f8f9fa;
     border-radius: 25px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
