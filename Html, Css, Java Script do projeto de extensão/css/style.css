@@ -108,14 +108,15 @@ main .container{
 /*Resultados*/
 .Resultados{
     background:#FDE3A6;
+    background-position: start;
 }
 .Resultados .container{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: start;
+    justify-content: start;
 }
 .Resultados .resultados-text{
-    color: #D9C1D2;
+    color: #F2ACC6;
     font-size: 1.6rem;
     font-weight: 600;
     width: 50%;
@@ -124,7 +125,7 @@ main .container{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #D9C1D2;
+    color: #F2ACC6;
 }
 .Resultados .resultados-numero p{
     text-align: center;
