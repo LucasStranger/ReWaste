@@ -15,7 +15,7 @@
   }
   
   .container {
-    width: 50%;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-wrap: column;
@@ -122,8 +122,8 @@
   /*Receitas-page*/
   .search-container {
     display: flex;
-    align-items: top;
-    justify-content: top;
+    align-items: center;
+    justify-content: center;
     background-color: #f8f9fa;
     border-radius: 25px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
