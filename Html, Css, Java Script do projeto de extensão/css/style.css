@@ -107,11 +107,12 @@ main .container{
 }
 /*Resultados*/
 .Resultados{
-    background:#BF8450; 
+    background:#BF8450;
+    background-position: top;
 }
 .Resultados .container{
     display: flex;
-    align-items: top;
+    align-items: center;
     justify-content: space-between;
 }
 .Resultados .resultados-text{
