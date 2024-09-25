@@ -18,7 +18,7 @@
   }
   :root{
     --rosa: #D9C1D2;
-    --verde: #055902;
+    --verde: #173916;
     --verde-escuro: #014005;
     --degrade-btn: repeating-linear-gradient(to right,#EDB7C5, #CAE8E3);
     --degrade-novo: linear-gradient(to right, #F2ACC6, #92C8E0, #84D9C9); 
@@ -44,7 +44,7 @@
     display: flex;
     align-items: center;
     flex-wrap: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   
   /* Card */
