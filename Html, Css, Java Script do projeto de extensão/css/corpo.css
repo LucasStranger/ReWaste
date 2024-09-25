@@ -145,22 +145,6 @@
     color: var(--color1);
   }
 
-  .card-5 .card-footer {
-    background-color: var(--color2);
-  }
-
-  .card-5 .card-local {
-    color: var(--color2);
-  }
-
-  .card-6 .card-footer {
-    background-color: var(--color3);
-  }
-
-  .card-6 .card-local {
-    color: var(--color3);
-  }
-
   /* Animação Hover */
   .card:hover {
     transform: scale3d(1.1, 1.1, 1);
