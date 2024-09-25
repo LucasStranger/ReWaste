@@ -39,78 +39,45 @@
  
  }
   
-  .container {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-wrap: column;
-    justify-content: space-evenly;
-  }
-  
-  /* Card */
-  .card {
-    width: 300px;
-    height: 460px;
-    margin: 25px;
-    background-color: #FDE3A6;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0px 0px 10px #D9C1D2;
-    transition: 0.3s;
-  }
-  
-  /* Card Header*/
-  .card-header {
-    width: 100%;
-    height: 200px;
-    overflow: hidden;
-  }
-  
-  .card-img {
-    min-width: 100%;
-    width: auto;
-    height: 100%;
-  }
-  
-  /* Card Body */
-  .card-body {
-    height: 170px;
-    padding: 15px;
-    text-align: center;
-    font-family: sans-serif;
-  }
-  
-  .card-local {
-    font-size: 16px;
-    margin: 10px 0;
-  }
-  
-  .card-titulo {
-    font-size: 32px;
-    margin: 15px 0;
-  }
-  
-  .card-texto {
-    font-size: 12px;
-    width: 250px;
-    margin: 0 auto;
-  }
-  
-  /* Card Footer */
-  .card-footer {
-    margin-top: 10px;
-    text-align: center;
-    background-color: #DBDBD9;
-  }
-  
-  .card-footer a {
-    color: black;
-    display: block;
-    padding: 16px;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
+ .container-cards {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os cards quebrem linha se necessário */
+  justify-content: space-between;
+  align-items: stretch; /* Garante que os cards tenham a mesma altura */
+}
+
+.card {
+  display: flex;
+  flex-direction: column; /* Organiza os elementos em coluna */
+  flex-basis: 23%; /* Ajusta a largura dos cards em relação ao container */
+  margin: 10px;
+  background-color: #fce9a7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 10px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto; /* Mantém a proporção da imagem */
+  object-fit: cover; /* Preenche o card sem distorcer a imagem */
+  border-radius: 8px 8px 0 0;
+}
+
+.card-body {
+  flex-grow: 1; /* Permite que o conteúdo do card ocupe o espaço necessário */
+  padding: 10px;
+  text-align: center;
+}
+
+.card-footer {
+  margin-top: auto; /* Empurra o footer para o final do card */
+  padding: 10px;
+  text-align: center;
+}
+
+
   
   /* Cores Cards */
   .card-1 .card-footer {
