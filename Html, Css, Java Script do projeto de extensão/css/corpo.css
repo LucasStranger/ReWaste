@@ -39,78 +39,124 @@
  
  }
   
- .container-cards {
+/* Estilização base dos cards */
+.container-cards {
   display: flex;
-  flex-wrap: wrap; /* Permite que os cards quebrem linha se necessário */
-  justify-content: space-between;
-  align-items: stretch; /* Garante que os cards tenham a mesma altura */
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .card {
-  display: flex;
-  flex-direction: column; /* Organiza os elementos em coluna */
-  flex-basis: 23%; /* Ajusta a largura dos cards em relação ao container */
-  margin: 10px;
-  background-color: #fce9a7;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  padding: 10px;
+  width: 250px;
+  margin: 20px;
+  border-radius: 8px;
   overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.card img {
+.card-img {
   width: 100%;
-  height: auto; /* Mantém a proporção da imagem */
-  object-fit: cover; /* Preenche o card sem distorcer a imagem */
-  border-radius: 8px 8px 0 0;
+  height: 150px;
+  object-fit: cover;
 }
 
 .card-body {
-  flex-grow: 1; /* Permite que o conteúdo do card ocupe o espaço necessário */
-  padding: 10px;
-  text-align: center;
+  padding: 15px;
 }
 
 .card-footer {
-  margin-top: auto; /* Empurra o footer para o final do card */
-  padding: 10px;
   text-align: center;
+  padding: 10px;
+  color: white;
 }
 
+.card-footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
 
-  
-  /* Cores Cards */
-  .card-1 .card-footer {
-    background-color: var(--color1);
-  }
-  
-  .card-1 .card-local {
-    color: var(--color1);
-  }
-  
-  .card-2 .card-footer {
-    background-color: var(--color2);
-  }
-  
-  .card-2 .card-local {
-    color: var(--color2);
-  }
-  
-  .card-3 .card-footer {
-    background-color: var(--color3);
-  }
-  
-  .card-3 .card-local {
-    color: var(--color3);
-  }
+/* Cores Cards */
+.card-1 .card-footer {
+  background-color: var(--color1);
+}
 
-  .card-4 .card-footer {
-    background-color: var(--color1);
-  }
+.card-1 .card-local {
+  color: var(--color1);
+}
 
-  .card-4 .card-local {
-    color: var(--color1);
-  }
+.card-2 .card-footer {
+  background-color: var(--color1);
+}
+
+.card-2 .card-local {
+  color: var(--color1);
+}
+
+.card-3 .card-footer {
+  background-color: var(--color1);
+}
+
+.card-3 .card-local {
+  color: var(--color1);
+}
+
+.card-4 .card-footer {
+  background-color: var(--color1);
+}
+
+.card-4 .card-local {
+  color: var(--color1);
+}
+
+.card-5 .card-footer {
+  background-color: var(--color1);
+}
+
+.card-5 .card-local {
+  color: var(--color1);
+}
+
+.card-6 .card-footer {
+  background-color: var(--color1);
+}
+
+.card-6 .card-local {
+  color: var(--color1);
+}
+
+.card-7 .card-footer {
+  background-color: var(--color1);
+}
+
+.card-7 .card-local {
+  color: var(--color1);
+}
+
+.card-8 .card-footer {
+  background-color: var(--color1);
+}
+
+.card-8 .card-local {
+  color: var(--color1);
+}
+
+.card-9 .card-footer {
+  background-color: var(--color1);
+}
+
+.card-9 .card-local {
+  color: var(--color1);
+}
+
+.card-10 .card-footer {
+  background-color: var(--color1);
+}
+
+.card-10 .card-local {
+  color: var(--color1);
+}
 
   /* Animação Hover */
   .card:hover {
