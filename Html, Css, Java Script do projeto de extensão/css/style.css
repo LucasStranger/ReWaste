@@ -112,8 +112,8 @@ main .container{
 }
 .Resultados .container{
     display: flex;
-    align-items: start;
-    justify-content: start;
+    align-items: center;
+    justify-content: center;
 }
 .Resultados .resultados-text{
     color: #F2ACC6;
@@ -227,6 +227,7 @@ main .container{
     font-weight: 500;
 }
 .melhores-receitas .cards button{
+    border-radius: 15px;
     padding: 10px 20px;
     color: white;
     background-color: var(--color1);
@@ -282,7 +283,7 @@ main .container{
     }
     .ul{
         position: fixed;
-        background: white;
+        background: var(--degrade-btn);
         top: 0;
         width: 300px;
         height: 100%;
