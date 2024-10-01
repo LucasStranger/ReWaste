@@ -338,6 +338,18 @@ main .container{
     .Food .container{
         flex-direction: column-reverse;
     }
+    .Food .container{
+        flex-direction: column-reverse;
+    }
+    .Food .food-texto,
+    .Food .food-img{
+        width: 100%;
+        text-align: left;
+        padding: 0; 
+    }
+    .Food .food-texto h2 {
+        text-align: left;
+    }
     .Food .casa-texto,
     .Food .casa-img{
         width: 100%;
