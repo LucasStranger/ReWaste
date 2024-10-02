@@ -335,13 +335,17 @@ main .container{
     .diferenciais .card{
         width: 100%;
     }
+
     .Food .container{
         flex-direction: column-reverse;
+    }
+    .Food .food-texto h2 {
+        text-align: left;
     }
     .Food .casa-texto,
     .Food .casa-img{
         width: 100%;
-        text-align: center;
+        text-align: left;
         padding: 0;
     }
     .melhores-receitas .cards{
@@ -350,6 +354,23 @@ main .container{
     .melhores-receitas .cards .card-item{
         width: 100%;
         margin-top: 50px;
+    }
+    .newsLetter .box-newsLetter {
+        text-align: left;
+        padding: 20px;
+    }
+    .newsLetter .box-newsLetter h2,
+    .newsLetter .box-newsLetter p {
+        margin: 0;
+    }
+    .newsLetter .box-newsLetter form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .newsLetter .box-newsLetter input {
+        width: 100%;
+        margin-bottom: 10px;
     }
 }
 @media (max-width: 440px){
